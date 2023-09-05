@@ -30,6 +30,12 @@ export default function Layout(props: React.PropsWithChildren) {
           </div> */}
         </div>
       </div>
+      <div className="backdrop">
+        <div className="backdrop_overlay"></div>
+        <div className="backdrop_background"></div>
+        <div className="backdrop_ball-left"></div>
+        <div className="backdrop_ball-right"></div>
+      </div>
     </div>
   );
 }
