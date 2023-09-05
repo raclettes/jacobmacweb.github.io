@@ -91,9 +91,9 @@ main.page_content_item {
 }
 
 .backdrop {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
+  height: 100%;
+  width: 100%;
+  position: fixed;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -131,7 +131,7 @@ main.page_content_item {
   );
   width: var(--width);
   height: var(--width);
-  position: absolute;
+  position: relative;
   z-index: 2;
   top: 0;
   left: 0;
@@ -154,9 +154,10 @@ main.page_content_item {
   height: var(--width);
   position: absolute;
   z-index: 2;
-  bottom: 5%;
+  bottom: 0;
   right: 0;
-  transform: translate(calc((var(--width) / 2)), calc((var(--width) / 2)));
+  transform: translate(calc(var(--width) / 2), calc(var(--width) / 2));
+  /* transform: translate(calc((var(--width) / -2)), calc((var(--width) / -2))); */
 }
 
 @media screen and (max-width: 1000px) {
