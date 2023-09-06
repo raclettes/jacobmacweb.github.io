@@ -168,5 +168,6 @@ main.page_content_item {
 
   .backdrop_ball-right {
     --width: 200vw;
+    transform: translate(calc(var(--width) / 2), calc(var(--width) / 8));
   }
 }
