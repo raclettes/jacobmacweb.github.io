@@ -91,7 +91,7 @@ main.page_content_item {
 }
 
 .backdrop {
-  height: 100%;
+  height: 150%;
   width: 100%;
   position: fixed;
   top: 0;
@@ -121,11 +121,12 @@ main.page_content_item {
 }
 
 .backdrop_ball-left {
-  --width: 100vh;
+  --width: 300vh;
   background: radial-gradient(
     circle at 50% 50%,
     rgba(77, 133, 124, 1) 0%,
-    rgba(130, 172, 168, 1) 46%,
+    rgba(77, 133, 124, 1) 40%,
+    rgba(130, 172, 168, 1) 50%,
     rgba(178, 196, 194, 1) 61%,
     transparent 70%
   );
@@ -137,16 +138,16 @@ main.page_content_item {
   left: 0;
   transform: translate(
     calc((var(--width) / 2) * -1),
-    calc((var(--width) / 5) * -3)
+    calc((var(--width) / 5) * -4)
   );
 }
 
 .backdrop_ball-right {
-  --width: 200vh;
+  --width: 450vh;
   background: radial-gradient(
     circle at 50% 50%,
-    rgba(9, 18, 19, 1) 0%,
-    rgba(45, 82, 91, 1) 58%,
+    rgb(0, 0, 0) 0%,
+    rgb(1, 16, 17) 60%,
     rgba(135, 166, 163, 1) 65%,
     transparent 68%
   );
@@ -156,7 +157,7 @@ main.page_content_item {
   z-index: 2;
   bottom: 0;
   right: 0;
-  transform: translate(calc(var(--width) / 2), calc(var(--width) / 2));
+  transform: translate(calc(var(--width) / 2), calc(var(--width) / 1.5));
   /* transform: translate(calc((var(--width) / -2)), calc((var(--width) / -2))); */
 }
 
