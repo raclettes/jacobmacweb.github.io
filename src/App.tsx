@@ -28,23 +28,25 @@ function App() {
           <div className="content_description_text">
             <p>
               I am a <strong>full-stack software developer</strong> currently
-              based in the East of England who specialises in React, Node.js
+              based in Switzerland (canton of Valais) who specialises in React, Node.js
               (often with Express), dev-ops, and with skills and experience in
               Python and Rust.
             </p>
-            <p>
-              I am currently working as a Lead Developer at{" "}
+            {/*<p>
+               am currently working as a Lead Developer at{" "}
               <a href="https://and-element.com/">
                 <span className="text">&Element</span>
               </a>
-              , a digital agency based in Colchester, UK. Day-to-day, I manage
+              , a digital agency based in Colchester, UK.
+              
+              Day-to-day, I manage
               projects for my workplace, communicating between management and
               employees, scoping out projects and estimating tasks, eventually
               handing work over to my team and reviewing ongoing work. I strive
               to create code that we can be proud of, ensuring that it follows
               best practices and company set standards as well as being
               intuitive and easy to use.
-            </p>
+            </p>*/}
             <p>
               I believe in sensible and creative user experience, providing the
               user with rapid interfaces with little response time, whether it
