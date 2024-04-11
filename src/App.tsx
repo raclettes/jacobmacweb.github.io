@@ -52,13 +52,6 @@ function App() {
               user with rapid interfaces with little response time, whether it
               be analytical dashboards or simple landing pages.
             </p>
-            <p>
-              If you want to contact me or our team, send us an email at{" "}
-              <a href="mailto:team@and-element.com">
-                <span className="text">team@and-element.com</span>
-              </a>
-              .
-            </p>
           </div>
           <div className="content_description_viewmore">
             {/* <a href="#" className="content_description_viewmore_link">
