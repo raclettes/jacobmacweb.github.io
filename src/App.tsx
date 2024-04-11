@@ -15,13 +15,14 @@ function App() {
           />
           <h1 className="content_profile_name">Jacob MacKenzie-Websdale</h1>
           <h4 className="content_profile_title">
-            Lead Developer at{" "}
+            {/*Lead Developer at{" "}
             <a
               href="https://and-element.com/"
               className="content_profile_title_link"
             >
               <span className="text">&Element</span>
-            </a>
+  </a>*/}
+            Senior Software Developer
           </h4>
         </div>
         <div className="content_description">
